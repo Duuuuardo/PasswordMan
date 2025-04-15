@@ -9,5 +9,6 @@ class PasswordmanApplication
 fun main(args: Array<String>) {
 	println("Hello from PasswordMan")
 	println("Starting spring web server")
+
 	runApplication<PasswordmanApplication>(*args)
 }

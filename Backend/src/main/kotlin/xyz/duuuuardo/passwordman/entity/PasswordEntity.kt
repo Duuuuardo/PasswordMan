@@ -8,6 +8,7 @@ import jakarta.persistence.Table
 @Entity
 class PasswordEntity(
     @Id val id: Long?,
+
     val host: String,
     val name: String,
     val hash: String
